@@ -1,17 +1,9 @@
 ---
 layout: post
-title: Testing MathJax
-tags: mathjax
+title: YOLO Adaptive Developments in Complex Natural Environments for Tiny Object Detection
+tags: paper
 math: true
-date: 2020-10-02 15:32 +0800
+date: 2024-6-29 23:32 +0800
 ---
-Not Pure Poole supports [MathJax](https://www.mathjax.org/). You can enable it on a page by setting `math: true` in the front matter.
-
-An inline math: \\\(E=mc^2\\\).
-
-A display math:
-
-$$
-i\hbar \frac{\partial \Psi}{\partial t} = -\frac{\hbar^2}{2m}
-\frac{\partial^2 \Psi}{\partial x^2} + V \Psi
-$$
+[YOLO Adaptive Developments in Complex Natural Environments for Tiny Object Detection]([https://www.mathjax.org/](https://www.mdpi.com/2079-9292/13/13/2525)). 
+Detection of tiny object in complex environments is a matter of urgency, not only because of the high real-world demand, but also the high deployment and real-time requirements. Although many current single-stage algorithms have good detection performance under low computing power requirements, there are still significant challenges such as distinguishing the background from object features and extracting small-scale target features in complex natural environments. To address this, we first created real datasets based on natural environments and improved dataset diversity using a combination of copy–paste enhancement and multiple image enhancement techniques. As for the choice of network, we chose YOLOV5s due to its nature of fewer parameters and easier deployment in the same class of models. Most improvement strategies to boost detection performance claim to improve the performance of privilege extraction and recognition. However, we prefer to consider the combination of realistic deployment feasibility and detection performance. Therefore, based on the hottest improvement methods of YOLOV5s, we try to make adaptive improvements in three aspects, namely attention mechanism, head network, and backbone network. The experimental results proved that the decoupled head and Slimneck based improvements achieved, respectively, 0.872 and 0.849, 0.538 and 0.479, 87.5% and 89.8% on the mAP0.5, mAP0.5:0.95, and Precision metrics, surpassing the results of the baseline model on these three metrics: 0.705, 0.405 and 83.6%. This result suggests that the adaptively improved model can better meet routine testing needs without significantly increasing the number of parameters. These models perform well on our custom dataset and are also effective on images that are difficult to detect by naked eye. Meanwhile, we find that YOLOV8s, which also has the decoupled head improvement, has the results of 0.743, 0.461, and 87.17% on these three metrics. It proves that under our dataset, it is possible to achieve more advanced results with lower number of model parameters just by adding decoupled head. And according to the results, we also discuss and analyze some improvements that are not adapted to our dataset, which also provides ideas for researchers in similar scenarios: in the booming development of object detection, choosing the suitable model and adapting to combine with other technologies would help to provide solutions to real-world problems.
